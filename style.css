@@ -1,0 +1,44 @@
+.buttons{
+    display: flex;
+    width: 150px;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border-color: white;
+    border-width: 2px;
+    justify-content: center;
+    align-items: center;
+}
+.text_button{
+    color: white;
+}
+
+.row_boxes{
+    display: flex;
+    flex-direction: row;
+}
+
+p,h1,h2,h3,h4,h5{
+    color: white;
+}
+
+p{
+    font-size: 18px;
+}
+
+#mega_box{
+    animation-name: slidein;
+    animation-duration: 3s;
+}
+
+@keyframes slidein {
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+    
+}
